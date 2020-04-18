@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 import background from '../assets/images/background.png';
+import bg from '../assets/images/bg-rosa.png';
 
 export default createGlobalStyle`
 
@@ -18,7 +19,7 @@ export default createGlobalStyle`
  }
 
  body{
-     background: #c9abab url(${background}) no-repeat center top;
+     background: url(${background}) no-repeat center top, url(${bg}) repeat right bottom ;
      -webkit-font-smoothing: antialiased !important;
  }
 
